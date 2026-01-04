@@ -1,0 +1,18 @@
+from __future__ import annotations
+
+PROTOCOL_VERSION = 1
+
+# Transport flags
+FLAG_DATA = 0x01
+FLAG_ACK  = 0x02
+FLAG_CTRL = 0x04
+
+# Modes
+MODE_DEFAULT = "default"
+MODE_SECURE = "secure"
+MODE_OBFS = "obfs"
+MODE_SECURE_OBFS = "secure_obfs"
+
+ALL_MODES = {MODE_DEFAULT, MODE_SECURE, MODE_OBFS, MODE_SECURE_OBFS}
+SECURE_MODES = {MODE_SECURE, MODE_SECURE_OBFS}
+OBFS_MODES = {MODE_OBFS, MODE_SECURE_OBFS}

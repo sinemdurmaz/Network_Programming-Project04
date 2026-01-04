@@ -1,4 +1,4 @@
-# Network_Programming-Project04
+# CEN437 – Network Programming Project 04
 
 **Prepared by Sinem Durmaz**
 **2021556028**
